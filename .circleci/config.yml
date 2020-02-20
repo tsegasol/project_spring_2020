@@ -10,4 +10,4 @@ jobs:
           - run:
               command: |
                 pip install .
-                pytest tests
+                pytest  --showlocals tests
